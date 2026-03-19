@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AURUM — Maison de Parfum. Three rituals. One essence." />
+    <meta name="theme-color" content="#080808" />
+
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts — non-render-blocking via print trick -->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Tenor+Sans&display=swap"
+      media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Tenor+Sans&display=swap" />
+    </noscript>
+
+    <!-- CSP -->
+    <meta http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://raw.githubusercontent.com https://cdn.jsdelivr.net; media-src 'self' blob:; worker-src blob:;" />
+
+    <title>AURUM — Maison de Parfum</title>
+    <style>
+      *{margin:0;padding:0;box-sizing:border-box}
+      html,body,#root{width:100%;background:#080808}
+      body{cursor:none;-webkit-font-smoothing:antialiased}
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
