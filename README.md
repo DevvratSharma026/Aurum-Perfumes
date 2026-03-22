@@ -4,7 +4,7 @@ A cinematic luxury perfume brand website **solely built by AI — Claude (Anthro
 
 ## Built By
 
-This entire project — architecture, GLSL shaders, animations, design system, and deployment config — was generated through natural language prompts to **Claude by Anthropic**. Zero manual code was written.
+Developed using Claude (Anthropic) as a co-pilot — architecture decisions, GLSL shaders, animations, and deployment config were all built through an AI-assisted workflow. A showcase of what modern vibe coding can produce.
 
 ## Live Demo
 
